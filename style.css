@@ -1,0 +1,248 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+ }
+ .body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial;
+}
+.conatainer {
+    padding: 5%;
+}
+.nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li {
+    list-style: none;
+    padding: 10px 10px;
+}
+.nav ul li a{
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav ul li a:hover {color: chartreuse;
+    transition: ease-in-out 500ms;
+    font-weight: 800;}
+.img {   
+    float: left;   
+}
+.content {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;   
+}
+.content1 {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;   
+}
+.text-box {
+    color: black;
+    padding-right: 5px;
+}
+.text-box h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.showcase h1{font-weight: 900;}
+.about h1{font-weight: 900;}
+.contact h1{font-weight: 900;}
+.text-box p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+.button {
+    background-color: hsl(60, 100%, 50%);
+    color: black;
+    font-size: 16px;
+    cursor:pointer;
+    border: none;
+    display: inline-block;
+    padding: 15px 32px;
+    margin-top: 100px;
+}
+.btn {
+    
+    background-color: rgb(241, 245, 3);
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    margin: 44px 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+.model{
+    background-color: yellow;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 132px;
+}
+.model h1 {
+    font-size: 15px;
+    text-align: center; 
+}
+.model p {
+    font-size: 10px;
+    text-align: center; 
+}
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+.column img {
+    margin-top:20px;
+    justify-content: space-between;
+}
+.row1:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column1 figcaption{
+    background-color: yellow;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.column1 p{
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.logo {
+    display: block;
+    padding-left: 7%;
+}
+.logo img {
+    padding:25px;
+}
+.para p {
+    justify-content: space-between;
+    line-height: 2.0;
+    margin-right: 550px;
+    
+}
+.text-area {
+    color: black;
+    padding-right: 1px;  
+}
+.text-area h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15%;
+}
+.text-area p{
+    font-size: 12px;
+    padding-top: 2px;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 20%;
+    line-height: 3.0;
+}
+.content1 textarea {
+    height:200px;
+}
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 530px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;  
+}
+input[type=submit] {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+.content1 h3 {
+    font-size: 30px;
+    margin: 0%;
+}
+.contact p {
+    justify-content: space-between;
+    line-height: 2.0;
+    margin-right: 700px;
+}
+.icon {
+    display: block;
+    padding-left: 35%;
+    justify-content: space-between;
+}
+.icon img {
+    padding: 40px;
+}
+
+/* Mobile Responsive*/
+@media only screen and (max-width:600px) {
+    .content h1{font-size: 20px;}
+    .content p{font-size: 10px;}
+    .nav {padding: 2px;}
+    .nav ul li {padding: 2px;}
+    .nav ul li a {padding: 5px; font-size: 15px;}
+    .nav img{width: 15%;}
+    .button {font-size: 8px; padding: 10px; margin-top: 20px;}
+    .showcase h1{font-size: 20px;}
+    .model{margin-top: 20px; padding: 22px;}
+    .model h1 {font-size: 12px; text-align: center;}
+    .model p {font-size: 8px; text-align: center;}
+    .logo {padding-left: 100px;} 
+    .logo img {padding: 10px; width: 15%;}
+    .btn {font-size: 8px; margin: 14px 170px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; padding-top: 5px; }
+    .about h1 {font-size: 20px;}
+    .para p{font-size: 10px;margin-right: 150px;}
+    .text-area h1{font-size: 15px;}
+    .text-area p{padding-right: 1px; padding-left: 10px; line-height: 2.0; font-size: 8px;}
+    .contact h1{font-size: 20px;}
+    .contact p{margin-right: 160px; font-size: 10px;}
+    .content1 h3 {font-size: 18px;}
+    .content img {height: 50%;margin-top: 5%;}
+    .content1 img {height: 50%;margin-top: 15%;}
+    .content1 textarea {height: 100px;}
+    input[type=text],input[type=email], textarea{margin-right: 40px;}
+    input[type=submit] {font-size: 8px; padding: 5px;} 
+    .icon {padding-left: 140px;}
+    .icon img{padding: 2px;}
+    .column1 figcaption{padding-top: 10px; font-size: 10px;}
+    .column1 p{padding-bottom: 8px;}
+
+}
