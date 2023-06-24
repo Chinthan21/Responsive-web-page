@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.0rem;
 
 }
 .nav ul {
@@ -28,83 +28,84 @@
 }
 .nav ul li {
     list-style: none;
-    padding: 10px 10px;
+    padding: 0.2rem 0.2rem;
 }
 .nav ul li a{
     color: rgb(5, 5, 5);
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    padding: 20px;
+    padding: 2.0rem;
 }
 .nav ul li a:hover {color: chartreuse;
     transition: ease-in-out 500ms;
     font-weight: 800;}
-.img {   
-    float: left;   
+.nav img {   
+    width: 5vw;   
 }
 .content {
-    margin: 50px auto;
+    margin: 5.0rem auto;
     display: flex;
     justify-content: space-between;   
 }
 .content1 {
-    margin: 50px auto;
+    margin: 5.0rem auto;
     display: flex;
     justify-content: space-between;   
 }
 .text-box {
     color: black;
-    padding-right: 5px;
+    padding-right: 1rem;
 }
 .text-box h1 {
-    font-size: 50px;
+    font-size: 3.0rem;
     font-weight: 900;
 }
 .showcase h1{font-weight: 900;}
 .about h1{font-weight: 900;}
 .contact h1{font-weight: 900;}
 .text-box p {
-    font-size: 20px;
+    font-size: 0.8rem;
     line-height: 1.8;
 }
 .button {
     background-color: hsl(60, 100%, 50%);
     color: black;
-    font-size: 16px;
+    font-size: 1.0rem;
     cursor:pointer;
     border: none;
     display: inline-block;
-    padding: 15px 32px;
-    margin-top: 100px;
+    padding: 1.0rem 3.0rem;
+    margin-top: 3.0rem;
 }
 .btn {
     
     background-color: rgb(241, 245, 3);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bolder;
     border: none;
-    margin: 44px 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px; 
+    margin: 3.5rem 35rem;
+    padding:1rem;
+    display: inline-block;
 }
 .model{
-    background-color: yellow;
-    width: 100%;
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    padding: 132px;
+    /* background-color: yellow;
+    text-align: center; */
+    width: auto;
+    height: auto;
+    /* margin-top: 5%; */
+    background: hsl(60, 100%, 50%);
+    box-sizing: content-box;
+    text-align: center;
+    padding: 7rem;
+    margin-bottom: 2.0rem;
 }
 .model h1 {
-    font-size: 22px;
+    font-size: 2vw;
     text-align: center; 
 }
 .model p {
-    font-size: 10px;
+    font-size: 0.81vw;
     text-align: center; 
 }
 .row:after {
@@ -115,10 +116,11 @@
 .column {
     float: left;
     width: 33%;
-    padding: 10px;
+    padding: 1.0rem;
 }
 .column img {
-    margin-top:20px;
+    /* margin-top:20px; */
+    margin-bottom: 2.0rem;
     justify-content: space-between;
 }
 .row1:after {
@@ -129,17 +131,17 @@
 .column1 {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 1rem;
 }
 .column1 figcaption{
     background-color: yellow;
-    padding-top: 20px;
+    padding-top: 2rem;
     font-weight: bold;
     text-align: center;
 }
 .column1 p{
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
     text-align: center;
 }
 .logo {
@@ -147,102 +149,98 @@
     padding-left: 7%;
 }
 .logo img {
-    padding:25px;
+    padding:2rem;
 }
 .para p {
     justify-content: space-between;
     line-height: 2.0;
-    margin-right: 550px;
+    margin-right: 40.0rem;
     
 }
 .text-area {
     color: black;
-    padding-right: 1px;  
+    padding-right: 0.8rem;  
 }
 .text-area h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 1vh 2vh;
 }
 .text-area p{
-    font-size: 12px;
-    padding-top: 2px;
+    font-size: 1rem;
+    /* padding-top: 1rem; */
     justify-content: space-between;
-    padding-left: 25%;
-    padding-right: 20%;
-    line-height: 3.0;
+    padding-left: 7vw;
+    padding-right: 1vw;
+    line-height: 2.0;
 }
 .content1 textarea {
-    height:200px;
+    height:2.0rem;
 }
 input[type=text],input[type=email], textarea {
     width: 100%;
-    margin-top: 10px;
-    margin-right: 530px;
+    margin-top: 1vh;
+    margin-right: 80vh;
     border: none;
     background-color: rgb(245, 245, 245);
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 1rem;
+    padding: 2vh;
     box-sizing: border-box;
     resize: vertical;  
 }
 input[type=submit] {
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 5vh;
+    padding: 2vh;
     border: none;
     background-color: yellow;
     color: black;
     font-weight: bold;
 }
 .content1 h3 {
-    font-size: 30px;
+    font-size: 3rem;
     margin: 0%;
 }
 .contact p {
-    justify-content: space-between;
-    line-height: 2.0;
-    margin-right: 700px;
+    /* justify-content: space-between; */
+    line-height: 1.8;
+    margin-right: 90vh;
+    font-size: 0.8;
 }
 .icon {
     display: block;
-    padding-left: 35%;
+    padding-left: 60vh;
     justify-content: space-between;
 }
 .icon img {
-    padding: 40px;
+    padding: 4vh;
 }
 
 /* Mobile Responsive*/
-@media only screen and (max-width:600px) {
-    .content h1{font-size: 20px;}
-    .content p{font-size: 10px;}
-    .nav {padding: 2px;}
-    .nav ul li {padding: 2px;}
-    .nav ul li a {padding: 5px; font-size: 15px;}
-    .nav img{width: 15%;}
-    .button {font-size: 8px; padding: 10px; margin-top: 20px;}
-    .showcase h1{font-size: 20px;}
-    .model{margin-top: 20px; padding: 22px;}
-    .model h1 {font-size: 12px; text-align: center;}
-    .model p {font-size: 8px; text-align: center;}
-    .logo {padding-left: 100px;} 
-    .logo img {padding: 10px; width: 15%;}
-    .btn {font-size: 8px; margin: 14px 170px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; padding-top: 5px; }
-    .about h1 {font-size: 20px;}
-    .para p{font-size: 10px;margin-right: 150px;}
-    .text-area h1{font-size: 15px;}
-    .text-area p{padding-right: 1px; padding-left: 10px; line-height: 2.0; font-size: 8px;}
-    .contact h1{font-size: 20px;}
-    .contact p{margin-right: 160px; font-size: 10px;}
-    .content1 h3 {font-size: 18px;}
-    .content img {height: 50%;margin-top: 5%;}
-    .content1 img {height: 50%;margin-top: 15%;}
-    .content1 textarea {height: 100px;}
-    input[type=text],input[type=email], textarea{margin-right: 40px;}
-    input[type=submit] {font-size: 8px; padding: 5px;} 
-    .icon {padding-left: 140px;}
-    .icon img{padding: 2px;}
-    .column1 figcaption{padding-top: 10px; font-size: 10px;}
-    .column1 p{padding-bottom: 8px;}
-
+@media(max-width:600px) {
+    html {
+        font-size: 55%;
+    }
+    .model h1{font-size: 2vh;}
+    .model p{font-size: 1rem;}
+    .model {padding: 5vh;}
+    .btn {margin: 2vh 30vh 0vh 31vh;}
+    .logo {padding: auto;}
+    .logo img {padding: auto; width: 12vh;}
+    .about h1 {font-size: 5vh;}
+    .para p {margin-right: 20vh;}
+    .text-area h1 {font-size: 2rem;}
+    .text-area p {font-size: 1rem;padding: 1vh;}
+    .contact h1 {font-size: 2rem;}
+    .contact p {margin:0vh 25vh 0vh 0vh;}
+    .content1 img {width:30%}
+    input[type=text],input[type=email], textarea{margin-right: 4rem;}
+    input[type=submit] {font-size: 1rem;} 
+    .icon {padding-left: 20vh;}
+    .icon img {padding: auto;width: 12vh;}
+}
+@media(max-width:998px) {
+    html {
+        font-size: 45%;
+    }
+    
 }
