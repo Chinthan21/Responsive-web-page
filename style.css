@@ -238,9 +238,10 @@ input[type=submit] {
     .icon {padding-left: 10vh;}
     .icon img {padding: auto;width: 12vh;}
 }
-@media(max-width:998px) {
+/* @media(max-width:998px) {
     html {
         font-size: 45%;
     }
     
 }
+ */
