@@ -146,10 +146,10 @@
 }
 .logo {
     display: block;
-    padding-left: 2%;
+    padding-left: 1%;
 }
 .logo img {
-    padding:1rem;
+    padding:0.5rem;
 }
 .para p {
     justify-content: space-between;
@@ -180,7 +180,7 @@
 input[type=text],input[type=email], textarea {
     width: 100%;
     margin-top: 1vh;
-    margin-right: 40vh;
+    margin-right: 20vh;
     border: none;
     background-color: rgb(245, 245, 245);
     border-radius: 1rem;
@@ -208,11 +208,11 @@ input[type=submit] {
 }
 .icon {
     display: block;
-    padding-left: 60vh;
+    padding-left: 40vh;
     justify-content: space-between;
 }
 .icon img {
-    padding: 4vh;
+    padding: 2vh;
 }
 
 /* Mobile Responsive*/
@@ -223,7 +223,7 @@ input[type=submit] {
     .model h1{font-size: 1vh;}
     .model p{font-size: 1rem;}
     .model {padding: 3vh;}
-    .btn {margin: 2vh 25vh 0vh 30vh;}
+    .btn {margin: 2vh 20vh 0vh 30vh;}
     .logo {padding: auto;}
     .logo img {padding: auto; width: 8vh;}
     .about h1 {font-size: 5vh;}
@@ -233,9 +233,9 @@ input[type=submit] {
     .contact h1 {font-size: 2rem;}
     .contact p {margin:0vh 25vh 0vh 0vh;}
     .content1 img {width:30%}
-    input[type=text],input[type=email], textarea{margin-right: 2rem;}
+    input[type=text],input[type=email], textarea{margin-right: 1rem;}
     input[type=submit] {font-size: 1rem;} 
-    .icon {padding-left: 10vh;}
+    .icon {padding-left: 8vh;}
     .icon img {padding: auto;width: 12vh;}
 }
 /* @media(max-width:998px) {
