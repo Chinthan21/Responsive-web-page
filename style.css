@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto;
+    min-height: 100vh;
     font-family: Arial;
 }
 .conatainer {
@@ -84,7 +84,7 @@
     font-size: 1rem;
     font-weight: bolder;
     border: none;
-    margin: 2.5rem 30rem;
+    margin: 3.5rem 30rem;
     padding:1rem;
     display: inline-block;
 }
@@ -97,8 +97,8 @@
     background: hsl(60, 100%, 50%);
     box-sizing: content-box;
     text-align: center;
-    padding: 5rem;
-    margin-bottom: 2.0rem;
+    padding: 5.8rem;
+    margin-bottom: 2rem;
 }
 .model h1 {
     font-size: 2vw;
@@ -146,15 +146,15 @@
 }
 .logo {
     display: block;
-    padding-left: 1%;
+    padding-left: 8vh;
 }
 .logo img {
-    padding:0.5rem;
+    padding:1rem;
 }
 .para p {
     justify-content: space-between;
     line-height: 2.0;
-    margin-right: 30.0rem;
+    margin-right: 40.0rem;
     
 }
 .text-area {
@@ -180,7 +180,7 @@
 input[type=text],input[type=email], textarea {
     width: 100%;
     margin-top: 1vh;
-    margin-right: 20vh;
+    margin-right: 60vh;
     border: none;
     background-color: rgb(245, 245, 245);
     border-radius: 1rem;
@@ -208,11 +208,11 @@ input[type=submit] {
 }
 .icon {
     display: block;
-    padding-left: 40vh;
+    padding-left: 60vh;
     justify-content: space-between;
 }
 .icon img {
-    padding: 2vh;
+    padding: 4vh;
 }
 
 /* Mobile Responsive*/
@@ -220,28 +220,27 @@ input[type=submit] {
     html {
         font-size: 55%;
     }
-    .model h1{font-size: 1vh;}
+    .model h1{font-size: 2vh;}
     .model p{font-size: 1rem;}
-    .model {padding: 3vh;}
-    .btn {margin: 2vh 20vh 0vh 30vh;}
+    .model {padding: 2.6vh;}
+    .btn {margin: 2vh 18vh 0vh 22vh;}
     .logo {padding: auto;}
-    .logo img {padding: auto; width: 8vh;}
+    .logo img {padding: auto; width: 8.8vh; height: fit-content;}
     .about h1 {font-size: 5vh;}
     .para p {margin-right: 20vh;}
     .text-area h1 {font-size: 2rem;}
     .text-area p {font-size: 1rem;padding: 1vh;}
-    .contact h1 {font-size: 2rem;}
+    .showcase h1{font-size: 2rem;} .about h1{font-size: 2rem;} .contact h1 {font-size: 2rem;} 
     .contact p {margin:0vh 25vh 0vh 0vh;}
     .content1 img {width:30%}
-    input[type=text],input[type=email], textarea{margin-right: 1rem;}
-    input[type=submit] {font-size: 1rem;} 
-    .icon {padding-left: 8vh;}
+    input[type=text],input[type=email], textarea{margin-right: 4rem;}
+    input[type=submit] {font-size: 1rem; padding: 1vh;} 
+    .icon {padding-left: 10vh;}
     .icon img {padding: auto;width: 12vh;}
 }
-/* @media(max-width:998px) {
+@media(max-width:998px) {
     html {
         font-size: 45%;
     }
     
 }
- */
