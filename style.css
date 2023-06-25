@@ -225,15 +225,15 @@ input[type=submit] {
     .model {padding: 2.6vh;}
     .btn {margin: 2vh 15vh 0vh 18vh;}
     .logo {padding: auto;}
-    .logo img {padding: auto; width: 6vh; height: fit-content;}
+    .logo img {padding: auto; width: 6.8vh; height: fit-content;}
     .about h1 {font-size: 5vh;}
     .para p {margin-right: 20vh;}
     .text-area h1 {font-size: 2rem;}
     .text-area p {font-size: 1rem;padding: 1vh;}
     .showcase h1{font-size: 2rem;} .about h1{font-size: 2rem;} .contact h1 {font-size: 2rem;} 
-    .contact p {margin:0vh 25vh 0vh 0vh;}
+    .contact p {margin:0vh 10vh 0vh 0vh;}
     .content1 img {width:30%}
-    input[type=text],input[type=email], textarea{margin-right: 3rem;}
+    input[type=text],input[type=email], textarea{margin-right: 1rem;}
     input[type=submit] {font-size: 1rem; padding: 1vh;} 
     .icon {padding-left: 10vh;}
     .icon img {padding: auto;width: 12vh;}
