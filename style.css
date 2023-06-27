@@ -317,6 +317,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abh {font-size: 40px;}
     .abp {font-size: 18px;}
     input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
+    .icon{gap: 5rem;} 
 }
 @media(min-width:1800px) {
     .nav ul li a { padding: 3rem;}
@@ -330,4 +331,21 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abp {font-size: 25px;}
     .f-heading {font-size: 30px;}
     input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
+    .icon{gap: 7rem;} 
+}
+@media(min-width:2100px) {
+    .nav ul li a { padding: 4rem; font-size: 30px;}
+    .s-head{font-weight: 900; font-size:xx-large;}
+    .t-box{font-size: 3rem;}
+    .text-box p{font-size: 30px;}
+    .gcolumn {gap: 8rem;}
+    .para p{font-size: 20px;}
+    .figcaption {font-size: 40px; padding-top:8px;}
+    .figcaption p{padding-bottom: 8px;}
+    .contact p{font-size: 20px;}
+    .abh {font-size: 50px;}
+    .abp {font-size: 25px;}
+    .f-heading {font-size: 30px;}
+    input[type=text],input[type=email], textarea{width: 45rem; padding: 4vh;}
+    .icon{gap: 10rem;} 
 }
