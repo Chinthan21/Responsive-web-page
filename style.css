@@ -170,6 +170,11 @@ html {
     justify-content: space-between;
     line-height: 2.0;
 }
+.cmsg {display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+}
 input[type=text],input[type=email], textarea {
     
     border: none;
