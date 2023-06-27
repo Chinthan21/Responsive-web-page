@@ -177,7 +177,6 @@ input[type=text],input[type=email], textarea {
     border-radius: 1rem;
     display: flex;
     gap: 20px;
-    width: 45rem;
     padding: 4vh;
     resize: none;
 }
