@@ -117,7 +117,9 @@ html {
 .gcolumn {
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
     gap: 1rem;
+    justify-content: space-between;
 }
 .abus {
     display: flex;
