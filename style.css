@@ -15,25 +15,24 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1.0rem; */
+    padding: 1.0rem;
 
 }
 .nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 .nav ul li {
     list-style: none;
-    /* padding: 0.2rem 0.2rem; */
+    padding: 0.2rem 0.2rem;
 }
 .nav ul li a{
     color: rgb(5, 5, 5);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    /* padding: 2.0rem; */
+    padding: 2.0rem;
 }
 .nav ul li a:hover {color: chartreuse;
     transition: ease-in-out 500ms;
@@ -43,17 +42,14 @@ html {
 }
 .content {
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: center;
-
+    justify-content: space-between;   
 }
 .text-box {
     color: black;
     padding-right: 1rem;
 }
 .t-box {
-    font-size: 1.5rem;
+    font-size: 4.0rem;
     font-weight: 900;
     text-align: left;
 }
@@ -61,7 +57,7 @@ html {
 .about h1{font-weight: 900;}
 .contact h1{font-weight: 900;}
 .text-box p {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 1.8;
 }
@@ -177,10 +173,9 @@ html {
     justify-content: space-between;
     line-height: 2.0;
 }
-.cmsg {display: flex;
+.contact-us {
+    display: flex;
     justify-content: space-between;
-    align-content: stretch;
-    align-items: center;
 }
 input[type=text],input[type=email], textarea {
     
@@ -189,7 +184,7 @@ input[type=text],input[type=email], textarea {
     border-radius: 1rem;
     display: flex;
     gap: 20px;
-    /* width: 45rem; */
+    width: 45rem;
     padding: 4vh;
     resize: none;
 }
@@ -225,10 +220,10 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
 
 
 /* Mobile Responsive*/
-@media(max-width:480px) {
+@media (min-width :480px) {
     .nav ul li a { padding: 2px; font-size: 10px;}
     .t-box{font-size: 1.5rem;}
-    .text-box p{font-size: 5px;}
+    .text-box p{font-size: 8px;}
     .button {font-size: 10px;}
     .btn {font-size: 10px;}
     .abh {font-size: 13.2px;}
@@ -239,7 +234,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .icon{gap: 1rem;} 
     input[type=text],input[type=email], textarea{width: 12rem; padding: 2vh; gap: 2px;}
 }
-@media(max-width:600px) {
+@media(min-width:600px){
     .nav ul li a { padding: 3px; font-size: 14px;}
     .t-box{font-size: 1.5rem;}
     .text-box p{font-size: 8px;}
@@ -248,9 +243,10 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .para p{font-size: 12px;}
     .contact p{font-size: 10px;}
     .icon{gap: 2rem;} 
+    
     input[type=text],input[type=email], textarea{width: 15rem; padding: 2vh;}
 }
-@media(max-width:768px) {
+@media(min-width:768px) {
     .nav ul li a { padding: 5px; font-size: 20px;}
     .t-box{font-size: 2rem;}
     .text-box p{font-size: 10px;}
@@ -259,13 +255,13 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     input[type=text],input[type=email], textarea{width: 20rem; padding: 2vh;}
     .icon{gap: 2rem;} 
 }
-@media(max-width:992px) {
+@media(min-width:992px) {
     .nav ul li a { padding: 1rem;}
     .t-box{font-size: 3rem;}
     .abh {font-size: 30px;}
     input[type=text],input[type=email], textarea{width: 30rem; padding: 2vh;}
 }
-@media(max-width:1200px) {
+@media(min-width:1200px) {
     .nav ul li a { padding: 1rem;}
     .abh {font-size: 40px;}
     input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
