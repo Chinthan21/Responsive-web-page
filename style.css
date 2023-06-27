@@ -15,6 +15,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding: 1.0rem; */
 
 }
 .nav ul {
@@ -25,12 +26,14 @@ html {
 }
 .nav ul li {
     list-style: none;
+    /* padding: 0.2rem 0.2rem; */
 }
 .nav ul li a{
     color: rgb(5, 5, 5);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
+    /* padding: 2.0rem; */
 }
 .nav ul li a:hover {color: chartreuse;
     transition: ease-in-out 500ms;
@@ -40,24 +43,25 @@ html {
 }
 .content {
     display: flex;
-    justify-content: space-between; 
     justify-content: space-between;
     align-content: space-between;
     align-items: center;
+
 }
 .text-box {
     color: black;
     padding-right: 1rem;
 }
 .t-box {
-    font-size: 3.0rem;
+    font-size: 1.5rem;
     font-weight: 900;
+    text-align: left;
 }
 .showcase h1{font-weight: 900;}
 .about h1{font-weight: 900;}
 .contact h1{font-weight: 900;}
 .text-box p {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 900;
     line-height: 1.8;
 }
@@ -185,6 +189,7 @@ input[type=text],input[type=email], textarea {
     border-radius: 1rem;
     display: flex;
     gap: 20px;
+    /* width: 45rem; */
     padding: 4vh;
     resize: none;
 }
@@ -220,10 +225,10 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
 
 
 /* Mobile Responsive*/
-@media (min-width :480px) and (max-width:480px) {
+@media(max-width:480px) {
     .nav ul li a { padding: 2px; font-size: 10px;}
     .t-box{font-size: 1.5rem;}
-    .text-box p{font-size: 8px;}
+    .text-box p{font-size: 5px;}
     .button {font-size: 10px;}
     .btn {font-size: 10px;}
     .abh {font-size: 13.2px;}
@@ -234,7 +239,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .icon{gap: 1rem;} 
     input[type=text],input[type=email], textarea{width: 12rem; padding: 2vh; gap: 2px;}
 }
-@media(max-width:600px) and (min-width:600px) {
+@media(max-width:600px) {
     .nav ul li a { padding: 3px; font-size: 14px;}
     .t-box{font-size: 1.5rem;}
     .text-box p{font-size: 8px;}
@@ -243,10 +248,9 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .para p{font-size: 12px;}
     .contact p{font-size: 10px;}
     .icon{gap: 2rem;} 
-    
     input[type=text],input[type=email], textarea{width: 15rem; padding: 2vh;}
 }
-@media(min-width:768px) {
+@media(max-width:768px) {
     .nav ul li a { padding: 5px; font-size: 20px;}
     .t-box{font-size: 2rem;}
     .text-box p{font-size: 10px;}
@@ -255,13 +259,13 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     input[type=text],input[type=email], textarea{width: 20rem; padding: 2vh;}
     .icon{gap: 2rem;} 
 }
-@media(min-width:992px) {
+@media(max-width:992px) {
     .nav ul li a { padding: 1rem;}
     .t-box{font-size: 3rem;}
     .abh {font-size: 30px;}
     input[type=text],input[type=email], textarea{width: 30rem; padding: 2vh;}
 }
-@media(min-width:1200px) {
+@media(max-width:1200px) {
     .nav ul li a { padding: 1rem;}
     .abh {font-size: 40px;}
     input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
