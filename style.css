@@ -40,7 +40,10 @@ html {
 }
 .content {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
 }
 .text-box {
     color: black;
