@@ -318,3 +318,16 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abp {font-size: 18px;}
     input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
 }
+@media(min-width:1800px) {
+    .nav ul li a { padding: 3rem;}
+    .s-head{font-weight: 900; font-size:xx-large;}
+    .t-box{font-size: 3rem;}
+    .text-box p{font-size: 30px;}
+    .gcolumn {gap: 6rem;}
+    .para p{font-size: 20px;}
+    .contact p{font-size: 20px;}
+    .abh {font-size: 50px;}
+    .abp {font-size: 25px;}
+    .f-heading {font-size: 30px;}
+    input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
+}
