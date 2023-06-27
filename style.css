@@ -52,11 +52,10 @@ html {
     font-weight: 900;
     text-align: left;
 }
-.showcase h1{font-weight: 900;}
-.about h1{font-weight: 900;}
-.contact h1{font-weight: 900;}
+.s-head{font-weight: 900; font-size: larger;}
+
 .text-box p {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 900;
     line-height: 1.8;
 }
@@ -185,8 +184,8 @@ input[type=text],input[type=email], textarea {
     border-radius: 1rem;
     display: flex;
     gap: 20px;
-    width: 45rem;
-    padding: 4vh;
+    width: 100%;
+    padding: 10px;
     resize: none;
 }
 input[type=submit] {
@@ -211,6 +210,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     max-width: 55%;
     line-height: 2.0;
 }
+.f-heading {font-size: 15px; font-weight: bolder;}
 .icon {
 
     display: flex;
@@ -221,6 +221,41 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
 
 
 /* Mobile Responsive*/
+@media (min-width :320px) {
+    .nav ul li a { padding: 2px; font-size: 10px;}
+    .t-box{font-size: 1rem;}
+    .text-box p{font-size: 5px;}
+    .button {font-size: 5px; padding: 5px;}
+    .btn {font-size: 5px; padding: 5px;}
+    .abus { gap: 20px;}
+    .abh {font-size: 8px;}
+    .abp {font-size: 5px; padding: 0px 0px;}
+    .figcaption {font-size: 8px; padding-top:5px;}
+    .figcaption p{padding-bottom: 5px;}
+    .para p{font-size: 5px;padding-bottom: 2px;}
+    .contact p{font-size: 5px;}
+    .f-heading {font-size: 10px;}
+    input[type=text],input[type=email], textarea{padding: 3px; gap: 2px;}
+    .icon{gap: 10px;} 
+    
+}
+@media (min-width :360px) {
+    .nav ul li a { padding: 2px; font-size: 10px;}
+    .t-box{font-size: 1rem;}
+    .text-box p{font-size: 5px;}
+    .button {font-size: 5px; padding: 5px;}
+    .btn {font-size: 5px; padding: 5px;}
+    .abh {font-size: 8px;}
+    .abp {font-size: 5px; padding: 0px 0px;}
+    .figcaption {font-size: 8px; padding-top:5px;}
+    .figcaption p{padding-bottom: 5px;}
+    .para p{font-size: 5px;padding-bottom: 2px;}
+    .contact p{font-size: 5px;}
+    .f-heading {font-size: 12px;}
+    input[type=text],input[type=email], textarea{padding: 5px; gap: 2px;}
+    .icon{gap: 10px;} 
+    
+}
 @media (min-width :480px) {
     .nav ul li a { padding: 2px; font-size: 10px;}
     .t-box{font-size: 1.5rem;}
@@ -232,6 +267,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .figcaption {font-size: 10px;}
     .para p{font-size: 8px;}
     .contact p{font-size: 8px;}
+    .f-heading {font-size: 15px;}
     .icon{gap: 1rem;} 
     input[type=text],input[type=email], textarea{width: 12rem; padding: 2vh; gap: 2px;}
 }
@@ -251,19 +287,34 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .nav ul li a { padding: 5px; font-size: 20px;}
     .t-box{font-size: 2rem;}
     .text-box p{font-size: 10px;}
+    .button {font-size: 15px; padding: 15px;}
+    .btn {font-size: 15px; padding: 15px;}
     .abh {font-size: 25px;}
     .abp {font-size: 12px;}
+    .figcaption {font-size: 15px; padding-top:8px;}
+    .figcaption p{padding-bottom: 8px;}
     input[type=text],input[type=email], textarea{width: 20rem; padding: 2vh;}
     .icon{gap: 2rem;} 
 }
 @media(min-width:992px) {
     .nav ul li a { padding: 1rem;}
     .t-box{font-size: 3rem;}
+    .text-box p{font-size: 12px;}
+    .button {font-size: 20px; padding: 20px;}
+    .btn {font-size: 20px; padding: 20px;}
     .abh {font-size: 30px;}
+    .abp {font-size: 15px;}
+    .figcaption {font-size: 20px; padding-top:10px;}
+    .figcaption p{padding-bottom: 10px;}
     input[type=text],input[type=email], textarea{width: 30rem; padding: 2vh;}
 }
 @media(min-width:1200px) {
     .nav ul li a { padding: 1rem;}
+    .t-box{font-size: 3rem;}
+    .text-box p{font-size: 15px;}
+    .para p{font-size: 15px;}
+    .contact p{font-size: 15px;}
     .abh {font-size: 40px;}
+    .abp {font-size: 18px;}
     input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
 }
