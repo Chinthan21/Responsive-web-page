@@ -109,7 +109,9 @@ html {
 .wcase {
     display: flex;
     flex-direction: row;
+    align-content: flex-start;
     gap: 1rem;
+    justify-content: space-between;
 }
 
 .gcolumn {
