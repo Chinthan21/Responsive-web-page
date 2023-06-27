@@ -346,6 +346,6 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abh {font-size: 50px;}
     .abp {font-size: 25px;}
     .f-heading {font-size: 30px;}
-    input[type=text],input[type=email], textarea{width: 45rem; padding: 4vh;}
+    input[type=text],input[type=email], textarea{width: 45rem; padding: 2.5vh;}
     .icon{gap: 10rem;} 
 }
