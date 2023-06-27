@@ -15,7 +15,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.0rem;
 
 }
 .nav ul {
@@ -176,6 +175,8 @@ html {
 .contact-us {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 51px;
 }
 input[type=text],input[type=email], textarea {
     
