@@ -52,7 +52,7 @@ html {
     font-weight: 900;
     text-align: left;
 }
-.s-head{font-weight: 900; font-size: larger;}
+.s-head{font-weight: 900; font-size: xx-large;}
 
 .text-box p {
     font-size: 4rem;
@@ -181,11 +181,11 @@ input[type=text],input[type=email], textarea {
     
     border: none;
     background-color: rgb(245, 245, 245);
-    border-radius: 1rem;
+    border-radius: 8px;
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     resize: none;
 }
 input[type=submit] {
@@ -216,7 +216,6 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 6rem;
 }
 
 
@@ -227,6 +226,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .text-box p{font-size: 5px;}
     .button {font-size: 5px; padding: 5px;}
     .btn {font-size: 5px; padding: 5px;}
+    .s-head {font-size: xx-small;}
     .abus { gap: 20px;}
     .abh {font-size: 8px;}
     .abp {font-size: 5px; padding: 0px 0px;}
@@ -257,9 +257,10 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     
 }
 @media (min-width :480px) {
-    .nav ul li a { padding: 2px; font-size: 10px;}
+    .nav ul li a { padding: 2px; font-size: 25x;}
     .t-box{font-size: 1.5rem;}
     .text-box p{font-size: 8px;}
+    .s-head {font-size: small;}
     .button {font-size: 10px;}
     .btn {font-size: 10px;}
     .abh {font-size: 13.2px;}
@@ -269,11 +270,12 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .contact p{font-size: 8px;}
     .f-heading {font-size: 15px;}
     .icon{gap: 1rem;} 
-    input[type=text],input[type=email], textarea{width: 12rem; padding: 2vh; gap: 2px;}
+    input[type=text],input[type=email], textarea{width: 12rem; padding: 5px; gap: 2px;}
 }
 @media(min-width:600px){
     .nav ul li a { padding: 3px; font-size: 14px;}
     .t-box{font-size: 1.5rem;}
+    .s-head {font-size: large;}
     .text-box p{font-size: 8px;}
     .abh {font-size: 18px;}
     .abp {font-size: 10px;}
@@ -281,11 +283,12 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .contact p{font-size: 10px;}
     .icon{gap: 2rem;} 
     
-    input[type=text],input[type=email], textarea{width: 15rem; padding: 2vh;}
+    input[type=text],input[type=email], textarea{width: 15rem; padding: 8px;}
 }
 @media(min-width:768px) {
     .nav ul li a { padding: 5px; font-size: 20px;}
     .t-box{font-size: 2rem;}
+    .s-head {font-size: x-large;}
     .text-box p{font-size: 10px;}
     .button {font-size: 15px; padding: 15px;}
     .btn {font-size: 15px; padding: 15px;}
@@ -293,12 +296,13 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abp {font-size: 12px;}
     .figcaption {font-size: 15px; padding-top:8px;}
     .figcaption p{padding-bottom: 8px;}
-    input[type=text],input[type=email], textarea{width: 20rem; padding: 2vh;}
+    input[type=text],input[type=email], textarea{width: 20rem; padding: 8px;}
     .icon{gap: 2rem;} 
 }
 @media(min-width:992px) {
     .nav ul li a { padding: 1rem;}
     .t-box{font-size: 3rem;}
+    .s-head {font-size: xx-large;}
     .text-box p{font-size: 12px;}
     .button {font-size: 20px; padding: 20px;}
     .btn {font-size: 20px; padding: 20px;}
@@ -306,31 +310,33 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abp {font-size: 15px;}
     .figcaption {font-size: 20px; padding-top:10px;}
     .figcaption p{padding-bottom: 10px;}
-    input[type=text],input[type=email], textarea{width: 30rem; padding: 2vh;}
+    input[type=text],input[type=email], textarea{width: 30rem; padding: 10px;}
 }
 @media(min-width:1200px) {
     .nav ul li a { padding: 1rem;}
     .t-box{font-size: 3rem;}
     .text-box p{font-size: 15px;}
+    .s-head {font-size: xx-large;}
     .para p{font-size: 15px;}
     .contact p{font-size: 15px;}
     .abh {font-size: 40px;}
     .abp {font-size: 18px;}
-    input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
+    input[type=text],input[type=email], textarea{width: 35rem; padding: 10px;}
     .icon{gap: 5rem;} 
 }
 @media(min-width:1800px) {
-    .nav ul li a { padding: 3rem;}
+    .nav ul li a { padding: 3rem; font-size: 30px;}
     .s-head{font-weight: 900; font-size:xx-large;}
     .t-box{font-size: 3rem;}
     .text-box p{font-size: 30px;}
+    .s-head {font-size: xx-large;}
     .gcolumn {gap: 6rem;}
     .para p{font-size: 20px;}
     .contact p{font-size: 20px;}
     .abh {font-size: 50px;}
     .abp {font-size: 25px;}
     .f-heading {font-size: 30px;}
-    input[type=text],input[type=email], textarea{width: 35rem; padding: 2vh;}
+    input[type=text],input[type=email], textarea{width: 40rem; padding: 15px;}
     .icon{gap: 7rem;} 
 }
 @media(min-width:2100px) {
@@ -338,6 +344,7 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .s-head{font-weight: 900; font-size:xx-large;}
     .t-box{font-size: 3rem;}
     .text-box p{font-size: 30px;}
+    .s-head {font-size: xx-large;}
     .gcolumn {gap: 8rem;}
     .para p{font-size: 20px;}
     .figcaption {font-size: 40px; padding-top:8px;}
@@ -346,6 +353,6 @@ input[type=submit]:hover {background-color: rgb(88, 170, 5);
     .abh {font-size: 50px;}
     .abp {font-size: 25px;}
     .f-heading {font-size: 30px;}
-    input[type=text],input[type=email], textarea{width: 45rem; padding: 2vh;}
+    input[type=text],input[type=email], textarea{width: 45rem; padding: 15px;}
     .icon{gap: 10rem;} 
 }
